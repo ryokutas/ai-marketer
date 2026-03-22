@@ -1,0 +1,36 @@
+{
+  "_comment": "競合インテリジェンスツール設定ファイル。competitors に追跡したい競合を追加してください。",
+  "my_company": {
+    "name": "自社名（ここを変更）",
+    "product": "自社のプロダクト・サービス概要",
+    "unique_value": "自社の強み・差別化ポイント"
+  },
+  "competitors": [
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "url": "https://www.hubspot.com",
+      "pricing_url": "https://www.hubspot.com/pricing/marketing",
+      "category": "マーケティングオートメーション"
+    },
+    {
+      "id": "marketo",
+      "name": "Adobe Marketo Engage",
+      "url": "https://business.adobe.com/products/marketo/adobe-marketo.html",
+      "pricing_url": "https://business.adobe.com/products/marketo/pricing.html",
+      "category": "マーケティングオートメーション"
+    },
+    {
+      "id": "salesforce_mc",
+      "name": "Salesforce Marketing Cloud",
+      "url": "https://www.salesforce.com/products/marketing/",
+      "pricing_url": "https://www.salesforce.com/editions-pricing/marketing-cloud/",
+      "category": "マーケティングオートメーション"
+    }
+  ],
+  "report_settings": {
+    "language": "ja",
+    "output_dir": "reports",
+    "include_sections": ["pricing", "features", "messaging", "recent_changes"]
+  }
+}
